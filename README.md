@@ -73,6 +73,17 @@ The pre-processing steps are combined with the computation of the word similarit
 
 The entire pipeline is contained in [evaluate_entities.py](./labelling/evaluate_entities.py), navigate to the root of the project and run: [calculate_entity_benchmark.sh](./calculate_entity_benchmark.sh). 
 
+## Summary of all steps
+
+Please consult this short summary of all steps to get you started:
+1.	Annotate the files 
+2.	Download the zip file from the GitHub repository
+3.	Download the annotated project from Azure Storage explorer
+4.	Place your data at the root level
+5.	Distribute the files into `./labelling/FR_output/` , `./labelling/GT_check/` and optionally into `./labelling/images/` if your input are image files
+6.	Execute the shell scripts to compute the benchmark OR, use the provided notebooks for interactive benchmarking / debugging.
+
+
 ## Developer Notes 
 
 **The need for bounding box conversion**
