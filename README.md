@@ -77,11 +77,12 @@ The entire pipeline is contained in [evaluate_entities.py](./labelling/evaluate_
 
 Please consult this short summary of all steps to get you started:
 1.	Annotate the files 
-2.	Download the zip file from the GitHub repository
-3.	Download the annotated project from Azure Storage explorer
-4.	Place your data at the root level
-5.	Distribute the files into `./labelling/FR_output/` , `./labelling/GT_check/` and optionally into `./labelling/images/` if your input are image files
-6.	Execute the shell scripts to compute the benchmark OR, use the provided notebooks for interactive benchmarking / debugging.
+2.	Download the annotated project from Azure Storage explorer
+3.	Train a custom model (optional)
+4.	Download the zip file from the GitHub repository
+5.	Place your data at the root level
+6.	Distribute the files into `./labelling/FR_output/` , `./labelling/GT_check/` and optionally into `./labelling/images/` if your input are image files
+7.	Execute the shell scripts to compute the benchmark OR, use the provided notebooks for interactive benchmarking / debugging.
 
 
 ## Developer Notes 
