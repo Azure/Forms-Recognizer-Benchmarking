@@ -4,6 +4,8 @@ Developing customized OCR solutions unlocks new possibilities such as the defini
 
 <img src="benchmark_ocr.png" alt="Dashboard visualisation example with results from OCR benchmarking" width="800"/>
 
+For a detailed description of the entire annotation process up to the benchmarking, please refer to the following [blogpost](https://techcommunity.microsoft.com/t5/ai-applied-ai-blog/train-and-benchmark-a-custom-forms-recognizer-using-forms/ba-p/3747144)
+
 
 ## Project Structure:
 
